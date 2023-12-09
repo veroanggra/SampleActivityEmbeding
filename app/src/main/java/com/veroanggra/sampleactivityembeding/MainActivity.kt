@@ -21,17 +21,6 @@ class MainActivity : AppCompatActivity() {
 
         setSupportActionBar(binding.toolbar)
 
-        when (resources.configuration.orientation) {
-            Configuration.ORIENTATION_PORTRAIT -> {
-                binding.bottomNavigationView
-            }
-            else -> {
-                binding.navigationRail
-//                binding.bottomNavigationView
-
-            }
-        }
-
         newsAdapter.differ.submitList(NewsData.loadData())
         binding.listRecyclerView.apply {
             layoutManager = LinearLayoutManager(this@MainActivity)

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:window="http://schemas.android.com/apk/res-auto">
-    <SplitPairRule
-        window:clearTop="true"
-        window:alwaysExpand="true"
-        window:finishPrimaryWithSecondary="false"
-        window:finishSecondaryWithPrimary="true"
-        window:splitMinWidth="500dp"
-        window:splitRatio="0.5">
-        <SplitPairFilter
-            window:primaryActivityName=".MainActivity"
-            window:secondaryActivityName=".details.DetailsActivity"/>
-    </SplitPairRule>
+<!--    <SplitPairRule-->
+<!--        window:clearTop="true"-->
+<!--        window:alwaysExpand="true"-->
+<!--        window:finishPrimaryWithSecondary="false"-->
+<!--        window:finishSecondaryWithPrimary="true"-->
+<!--        window:splitMinWidth="500dp"-->
+<!--        window:splitRatio="0.5">-->
+<!--        <SplitPairFilter-->
+<!--            window:primaryActivityName=".MainActivity"-->
+<!--            window:secondaryActivityName=".details.DetailsActivity"/>-->
+<!--    </SplitPairRule>-->
 </resources>
